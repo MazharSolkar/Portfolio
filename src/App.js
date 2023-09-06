@@ -2,6 +2,7 @@ import Header from './components/Home';
 import Pulse from './components/Pulse';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
+import Qualification from './components/Qualification';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Header />
         <Skills />
+        <Qualification />
       </div>
     </div>
   );
