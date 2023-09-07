@@ -5,9 +5,14 @@ import { DiJavascript1 } from 'react-icons/di';
 const Skills = () => {
   return (
     <section className='px-2 mb-12'>
-      <h1 className='mb-8 font-extrabold text-4xl text-cyan-400 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 cursor-pointer md:animate-pulse '>
+      <h1 className='border-cyan-500 mb-8 font-extrabold text-4xl text-cyan-400 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 cursor-pointer'>
         Skills <span className='text-white'>🛠️</span>
       </h1>
+
+      <p className='mb-8 text-xl text-gray-500 dark:text-gray-400'>
+        💻 Proficient in various programming languages and technologies.
+      </p>
+
       <div className='flex flex-wrap justify-center items-center'>
         <div className='border-2 border-cyan-500 m-4 rounded-full shadow-lg shadow-cyan-500/50 overflow-hidden'>
           <FaReact className='text-6xl md:text-7xl  text-white-500 p-2 bg-cyan-500' />

@@ -1,5 +1,6 @@
 import { BiSolidPaperPlane, BiSolidDownload } from 'react-icons/bi';
 import { PROFILE } from '../utils/constant';
+import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
   return (
@@ -23,8 +24,26 @@ const Header = () => {
       <div className='text-center'>
         <p className='text-cyan-500'>HI, MY NAME IS</p>
 
-        <h1 className='my-3 text-5xl font-bold md:hover:animate-jello'>
-          Mazhar Solkar
+        <h1 className='font-bold'>
+          <TypeAnimation
+            preRenderFirstString={true}
+            sequence={[
+              500,
+              '', // initially rendered starting point
+              1000,
+              'Mazhar Solkar',
+              1000,
+              'I write code',
+              1000,
+            ]}
+            speed={50}
+            style={{
+              fontSize: '3rem',
+              marginTop: '0.75rem',
+              marginBottom: '0.75rem',
+            }}
+            repeat={Infinity}
+          />
         </h1>
 
         <p className='my-8 text-lg'>

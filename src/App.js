@@ -1,8 +1,9 @@
 import Header from './components/Home';
-import Pulse from './components/Pulse';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
-import Qualification from './components/Qualification';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         <Navbar />
         <Header />
         <Skills />
-        <Qualification />
+        <Projects />
+        <Education />
+        <Footer />
       </div>
     </div>
   );

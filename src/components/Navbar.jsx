@@ -9,10 +9,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='max-w-5xl sticky top-0 backdrop-blur-md z-20 md:mb-8 px-3 md:px-0 py-2 md:py-4'>
+    <nav className='max-w-5xl sticky top-0 backdrop-blur-md z-20 px-3 md:px-0 py-2 md:py-4'>
       <div className='md:flex md:justify-between md:items-center sticky top-0'>
         <div className='mb-2 flex justify-between md:items-center sticky top-0'>
-          <h1 className='font-extrabold text-2xl text-cyan-400 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 cursor-pointer md:animate-pulse '>
+          <h1 className='font-extrabold text-2xl text-cyan-400 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 cursor-pointer'>
             Mazhar Solkar <span className='text-white'>🚀</span>
           </h1>
 
