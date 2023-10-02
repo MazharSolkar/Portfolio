@@ -6,13 +6,11 @@ const Education = () => {
     <div className='mb-12 mx-2'>
       <div className='flex'>
         <h1 className='mb-8 mr-2 font-extrabold text-3xl md:text-4xl text-cyan-400 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 cursor-pointer'>
-          Educational Journey
+          Educational Journey <span className='text-white'>📚</span>
         </h1>
-
-        <GiJourney className='text-slate-400 text-5xl' />
       </div>
       <p className='mb-8 text-xl text-gray-500 dark:text-gray-400'>
-        📜 Acquired degrees and certifications as stepping stones to success.
+        Acquired degrees and certifications as stepping stones to success.📜
       </p>
       <div className='md:flex md:justify-between'>
         <section className='px-2 mb-8'>
@@ -122,6 +120,7 @@ const Education = () => {
                 </h3>
                 <a
                   href='https://courses.namastedev.com/learn/certificate/8406738-142240'
+                  target='blank'
                   class='inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700'>
                   <svg
                     class='w-3.5 h-3.5 mr-2.5'

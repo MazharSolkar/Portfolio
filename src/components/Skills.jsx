@@ -10,7 +10,7 @@ const Skills = () => {
       </h1>
 
       <p className='mb-8 text-xl text-gray-500 dark:text-gray-400'>
-        💻 Proficient in various programming languages and technologies.
+        Proficient in various programming languages and technologies.💻
       </p>
 
       <div className='flex flex-wrap justify-center items-center'>

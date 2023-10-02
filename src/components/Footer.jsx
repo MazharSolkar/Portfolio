@@ -24,28 +24,33 @@ const Footer = () => {
           </span>
           <ul className='flex md:flex md:flex-row md:mt-3 mt-4 space-x-5 justify-center sm:mt-0'>
             <a
-              href='#'
+              href='https://www.instagram.com/lone_wolf_09n/'
+              target='blank'
               className='text-pink-500 hover:text-pink-900 dark:hover:text-white'>
               <BiLogoInstagramAlt className='text-2xl' />
               <span className='sr-only'>Instagram</span>
             </a>
             <a
-              href='#'
+              href='https://www.linkedin.com/in/mazhar-solkar-33b6ab16b/'
+              target='blank'
               className='text-blue-500 hover:text-blue-900 dark:hover:text-white'>
               <BiLogoLinkedin className='text-2xl' />
               <span className='sr-only'>LinkedIn</span>
             </a>
             <a
-              href='#'
+              href='https://github.com/MazharSolkar'
+              target='blank'
               className='text-white hover:text-white dark:hover:text-white'>
               <BiLogoGithub className='text-2xl' />
               <span className='sr-only'>GitHub account</span>
             </a>
             <a
-              href='#'
-              className='text-red-500 hover:text-red-900 dark:hover:text-white'>
+              href='mailto: abc@example.com'
+              target='blank'
+              className='text-red-500 hover:text-red-900
+              dark:hover:text-white'>
               <BiLogoGmail className='text-2xl' />
-              <span className='sr-only'>Dribbble account</span>
+              <span className='sr-only'>Gmail account</span>
             </a>
           </ul>
         </div>

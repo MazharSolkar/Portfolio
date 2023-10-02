@@ -22,9 +22,9 @@ const Header = () => {
       </div>
       {/*  */}
       <div className='text-center'>
-        <p className='text-cyan-500'>HI, MY NAME IS</p>
+        <p className='text-cyan-500 '>HI, MY NAME IS</p>
 
-        <h1 className='font-bold'>
+        <p className='font-bold text-4xl md:text-5xl md:py-3'>
           <TypeAnimation
             preRenderFirstString={true}
             sequence={[
@@ -37,25 +37,20 @@ const Header = () => {
               1000,
             ]}
             speed={50}
-            style={{
-              fontSize: '3rem',
-              marginTop: '0.75rem',
-              marginBottom: '0.75rem',
-            }}
             repeat={Infinity}
           />
-        </h1>
+        </p>
 
-        <p className='my-8 text-lg'>
+        <p className='my-3 text-lg'>
           I am a{' '}
           <span className='text-gray-950 font-semibold px-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br shadow-md hover:shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/50 dark:hover:shadow-lg dark:hover:shadow-cyan-800/80 inline-block md:hover:animate-pulse'>
             frontend developer
           </span>{' '}
-          🚀 with an unwavering passion for transforming ideas into visually
-          captivating and user-centric digital experiences. 🌈🎨 With a keen eye
-          for design and an arsenal of cutting-edge technologies,{' '}
+          🚀 who loves turning ideas into stunning and user-friendly digital
+          experiences.🌈🎨 I have a strong eye for design and use the latest
+          technologies to create smooth and engaging interfaces.{' '}
           <span className='text-cyan-500 font-semibold'>
-            I strive to craft seamless interfaces that breathe life into code.🧑‍💻
+            My goal is to make code come alive! 🧑‍💻
           </span>
         </p>
       </div>
@@ -66,14 +61,18 @@ const Header = () => {
           <p className='mr-1 md:pr-2 text-gray-950 font-semibold'>My Resume</p>{' '}
           <BiSolidDownload className='text-gray-950' />
         </button>
-        <button
-          className='w-36 h-10  text-lg flex justify-center items-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-center mx-4 mb-2 hover:shadow-cyan-500/50 hover:shadow-lg md:hover:animate-pulse'
-          type='button'>
-          <p className='mr-1 md:pr-2 text-gray-950 font-semibold'>
-            Let's Connect
-          </p>{' '}
-          <BiSolidPaperPlane className='text-gray-950' />
-        </button>
+        <a
+          href='https://www.linkedin.com/in/mazhar-solkar-33b6ab16b/'
+          target='blank'>
+          <button
+            className='w-36 h-10  text-lg flex justify-center items-center bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-center mx-4 mb-2 hover:shadow-cyan-500/50 hover:shadow-lg md:hover:animate-pulse'
+            type='button'>
+            <p className='mr-1 md:pr-2 text-gray-950 font-semibold'>
+              Let's Connect
+            </p>{' '}
+            <BiSolidPaperPlane className='text-gray-950' />
+          </button>
+        </a>
       </div>
     </section>
   );
